@@ -281,3 +281,38 @@ body {
     border-color: #e74c3c;
     color: #e74c3c;
 }
+
+ .levels-section {
+    background-color: #ffffff;
+}
+
+.levels-container {
+    display: flex;
+    gap: 20px;
+}
+
+.level-card {
+    flex: 1;
+    border: 1px solid #e1e8ed;
+    border-top: 4px solid #4fa3d1;
+    padding: 20px;
+    background-color: #fafbfc;
+    border-radius: 4px;
+}
+
+.level-badge {
+    display: inline-block;
+    background-color: #4f5d68;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.level-card h3 {
+    font-size: 15px;
+    color: #444444;
+    margin-bottom: 8px;
+}
