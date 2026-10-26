@@ -255,3 +255,29 @@ body {
 .title-space {
     margin-bottom: 30px;
 }
+
+.role-box, .pc-box {
+    background: #ffffff;
+    padding: 25px 15px;
+    border: 1px solid #e1e8ed;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.pc-text {
+    font-size: 12px;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+    padding: 0 10px;
+}
+
+.pc-icon-green {
+    border-color: #8bb82d;
+    color: #8bb82d;
+}
+
+.pc-icon-red {
+    border-color: #e74c3c;
+    color: #e74c3c;
+}
