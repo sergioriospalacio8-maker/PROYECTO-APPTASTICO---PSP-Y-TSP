@@ -190,3 +190,37 @@ body {
     padding: 50px 0;
     border-bottom: 1px solid #e5e5e5;
 }
+
+.features-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature-card {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #7c8e9a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #7c8e9a;
+    font-size: 38px;
+    overflow: hidden;
+}
+
+.small-circle {
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
