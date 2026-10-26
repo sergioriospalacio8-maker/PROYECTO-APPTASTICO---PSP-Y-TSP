@@ -507,3 +507,59 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+@media (max-width: 1279px) {
+.container {
+ width: 100%;
+max-width: 100%;
+ }
+
+.nav-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+ }
+
+.logo,
+.nav-links {
+    transform: none;
+}
+
+.logo {
+     max-width: 100%;
+     min-width: 0;
+ }
+
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 100%;
+    min-width: 0;
+}
+
+.nav-links a {
+     white-space: normal;
+     overflow-wrap: anywhere;
+}
+
+.hero-image {
+    max-width: 100%;
+    min-width: 0;
+ }
+
+.hero-image img {
+    display: block;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+}
+ }
