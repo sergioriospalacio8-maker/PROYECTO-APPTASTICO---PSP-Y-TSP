@@ -415,3 +415,34 @@ body {
     color: #888888;
     line-height: 1.4;
 }
+
+.read-more {
+    font-size: 11px;
+    color: #3b81b8;
+    text-decoration: none;
+}
+
+.post-date {
+    display: block;
+    font-size: 10px;
+    color: #aaaaaa;
+    margin-top: 3px;
+}
+
+.older-entries {
+    font-size: 11px;
+    color: #3b81b8;
+    text-decoration: none;
+}
+
+.tweet {
+    margin-bottom: 18px;
+    font-size: 11px;
+    color: #777777;
+    line-height: 1.4;
+}
+
+.tweet a {
+    color: #3b81b8;
+    text-decoration: none;
+}
