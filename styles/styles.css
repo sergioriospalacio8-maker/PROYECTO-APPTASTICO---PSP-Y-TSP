@@ -164,3 +164,29 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+
+.sponsor-icon {
+    font-size: 38px;
+    color: #b0b0b0;
+}
+
+.sponsor-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: #b0b0b0;
+    font-family: Arial, sans-serif;
+}
+
+.sponsor-ebay {
+    font-family: 'Times New Roman', serif;
+    letter-spacing: -2px;
+}
+
+.sponsor-ea {
+    font-style: italic;
+}
+
+.features-section {
+    padding: 50px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
