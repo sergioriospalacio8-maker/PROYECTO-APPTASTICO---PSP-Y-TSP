@@ -316,3 +316,29 @@ body {
     color: #444444;
     margin-bottom: 8px;
 }
+
+ .level-card p {
+    font-size: 12px;
+    color: #777777;
+    line-height: 1.5;
+}
+
+.projects-section {
+    padding: 40px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #555555;
+    font-weight: normal;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.title-icon {
+    color: #8bb82d;
+    font-size: 18px;
+}
