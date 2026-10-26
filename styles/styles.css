@@ -14,3 +14,33 @@ body {
     background-color: #ffffff;
     line-height: 1.5;
 }
+
+ .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-section {
+    background-color: #4f5d68;
+    color: #ffffff;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    border-bottom: 1px solid #3d4a54;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive; 
+    font-style: normal;              
+    font-weight: normal;            
+    font-size: 32px;
+    color: #ffffff;
+}
