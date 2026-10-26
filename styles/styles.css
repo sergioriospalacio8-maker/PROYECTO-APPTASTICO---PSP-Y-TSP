@@ -366,3 +366,34 @@ body {
 .info-section {
     padding: 40px 0 50px 0;
 }
+
+.info-grid {
+    display: flex;
+    gap: 40px;
+}
+
+.blog-col, .twitter-col {
+    flex: 1;
+}
+
+.orange-icon {
+    color: #f39c12;
+}
+
+.blue-icon {
+    color: #3498db;
+}
+
+.blog-post {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.blog-img {
+    flex: 0 0 90px;
+    height: 70px;
+    border: 1px solid #dddddd;
+    padding: 3px;
+    background-color: #fff;
+}
