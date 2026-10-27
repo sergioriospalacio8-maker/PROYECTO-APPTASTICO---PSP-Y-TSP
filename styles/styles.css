@@ -563,3 +563,96 @@ max-width: 100%;
     object-fit: contain;
 }
  }
+
+ @media (max-width: 480px) {
+.container {
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.nav-container {
+    padding: 12px;
+}
+
+.logo img {
+    max-width: 160px;
+    height: auto;
+}
+
+.nav-links {
+    gap: 10px;
+}
+
+.hero-text h1 {
+    font-size: clamp(24px, 7vw, 34px);
+    overflow-wrap: anywhere;
+}
+
+.hero-text p {
+    font-size: 15px;
+    overflow-wrap: anywhere;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 210px;
+    height: auto;
+ }
+
+.hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+ }
+
+.hero-buttons a,
+.hero-buttons button {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.projects-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 18px;
+ }
+
+.project-card {
+    min-width: 0;
+    width: 100%;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.blog-post {
+    flex-wrap: wrap;
+     min-width: 0;
+}
+
+.blog-img {
+    flex: 0 1 90px;
+    max-width: 100%;
+}
+
+.role-box,
+.pc-box,
+.feature-card,
+.level-card {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+        overflow-wrap: anywhere;
+    }
+}
